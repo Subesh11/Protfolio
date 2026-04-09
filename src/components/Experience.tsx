@@ -5,7 +5,7 @@ const Experience = () => {
   const experiences = [
     {
       title: 'Quality Assurance',
-      company: 'TDialo-Tech',
+      company: 'Dialo-Tech',
       location: 'Koteshwor',
       period: '2024 to 3 month after',
       description: 'Learn .Net and check quality of software for costumer satisfaction',

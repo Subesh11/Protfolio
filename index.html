@@ -27,5 +27,81 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <!--Start of Tawk.to Script-->
+      <!--Start of Tawk.to Script-->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/69d7a70f9f2caf1c32915a3c/1jlp695f5';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<!--End of Tawk.to Script-->
+      
+      
+<!--End of Tawk.to Script-->
+
+<script type="text/javascript">
+var Tawk_API = Tawk_API || {};
+var Tawk_LoadStart = new Date();
+
+// ✅ define onLoad BEFORE script loads
+Tawk_API.onLoad = function() {
+
+  console.log("Tawk loaded");
+
+  if ("geolocation" in navigator) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+
+      var lat = position.coords.latitude;
+      var lon = position.coords.longitude;
+
+      console.log("Location:", lat, lon);
+
+      Tawk_API.setAttributes({
+        "Latitude": lat,
+        "Longitude": lon,
+        "Location": lat + ", " + lon
+      }, function(error) {
+        if (error) {
+          console.error("Error setting attributes:", error);
+        } else {
+          console.log("Location sent to Tawk");
+
+          // open chat after 3 seconds
+          setTimeout(function() {
+            Tawk_API.maximize();
+          }, 3000);
+        }
+      });
+
+    }, function(error) {
+      console.error("Location error:", error);
+    });
+  }
+
+};
+
+// ✅ THEN load Tawk script
+(function(){
+  var s1 = document.createElement("script"),
+      s0 = document.getElementsByTagName("script")[0];
+
+  s1.async = true;
+  s1.src = 'https://embed.tawk.to/69d7a70f9f2caf1c32915a3c/1jlpbi53r';
+  s1.charset = 'UTF-8';
+  s1.setAttribute('crossorigin','*');
+
+  s0.parentNode.insertBefore(s1, s0);
+})();
+</script>
+
+
   </body>
 </html>
